@@ -5,11 +5,11 @@ export const mockPurchases = (): Array<SavePurchases.Params> => [
   {
     id: faker.random.uuid(),
     date: faker.date.recent(),
-    Value: faker.random.number(),
+    value: faker.random.number(),
   },
   {
     id: faker.random.uuid(),
     date: faker.date.recent(),
-    Value: faker.random.number(),
+    value: faker.random.number(),
   },
 ];
